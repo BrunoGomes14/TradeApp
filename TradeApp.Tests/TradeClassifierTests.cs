@@ -22,7 +22,7 @@ public class TradeClassifierTests
         var result = classifier.Classify(trade);
 
         // Assert
-        Assert.Equal("EXPIRED", result);
+        Assert.Equal(Consts.Expired, result);
     }
 
     [Fact]
